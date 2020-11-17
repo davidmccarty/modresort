@@ -18,6 +18,4 @@ Then access using
 http://localhost:9080/resorts  
 http://localhost:9080/metrics
 
-## Customize
-Optional weather 
 
