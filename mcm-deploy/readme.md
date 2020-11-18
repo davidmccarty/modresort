@@ -1,4 +1,12 @@
 # To deploy modresort project on MCM
+## Edit the deployable.yaml
+Get the ingress subdomain for your cloud instance and update the value here
+```yaml
+    spec:
+      host: modresorts.<ingress-subdomain>
+      port:
+        targetPort: 9080
+```
 ## Create modresort-deploy namespace and objects
 ```sh
 oc new-project modresort-deploy
